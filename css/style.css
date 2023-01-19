@@ -1,6 +1,8 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 #header {
@@ -12,12 +14,13 @@ body {
     width: 50vw;
     display: flex;
     align-items: center;
+    gap: 20px ;
+    margin-left: 20px;
 }
 
 a {
     text-decoration: none;
-    color: grey;
-    padding: 5px;
+    color: black;
 }
 
 #top-r {
@@ -25,36 +28,98 @@ a {
     display: flex;
     justify-content: right;
     align-items: center;
+    gap: 20px;
+    margin-right: 20px;
 }
 
 #icon {
     height: 40px;
 }
 
+#button1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+    height: 36px;
+    width: 114px;
+    border: none;
+    border-radius: 5px;
+}
+
 #main {
     height: 70vh;
 }
 
-#logo {  
-    background-color: aqua;  
+#LogoSearch {  
     height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
-#buttons {    
-    background-color: pink;
+
+#logo {
+    width: 350px;
+}
+
+.icons {
+    height: 12px;
+}
+
+#fusion {
+    width: 420px;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+#input {
+    width: 350px;
+    border: none;
+}
+
+#buttons {   
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
 }
+
+.BotonesCentrales {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 36px;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+}
+
 #languages {    
-    background-color: brown;
     height: 30vh;
+}
+
+#PrimerParrafo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    color: grey;
+}
+
+.Idiomas {
+    color: blue;;
 }
 
 #footer {
-    background-color: blue;
     height: 15vh;
 }
 
+#SegundoParrafo {
+    color: grey;
+    margin-left: 20px;
+}
+
 #top {
-    background-color: blueviolet;
+    background-color: rgb(218, 209, 226);
     height: 55%;
 }
 
