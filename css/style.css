@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 15vh;
+    display: flex;
+}
+
+#top-l {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 5px;
+}
+
+#top-r {
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#icon {
+    height: 40px;
+}
+
+#main {
+    height: 70vh;
+}
+
+#logo {  
+    background-color: aqua;  
+    height: 30vh;
+}
+#buttons {    
+    background-color: pink;
+    height: 10vh;
+}
+#languages {    
+    background-color: brown;
+    height: 30vh;
+}
+
+#footer {
+    background-color: blue;
+    height: 15vh;
+}
+
+#top {
+    background-color: blueviolet;
+    height: 55%;
+}
+
+#bottom {
+    background-color: chartreuse;
+    height: 45%;
+    display: flex;
+}
+
+#bottom-l {
+    width: 33%;
+}
+#bottom-center {
+    width: 33%;
+}
+#bottom-r {
+    width: 33%;
+}
