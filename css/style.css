@@ -82,7 +82,7 @@ a {
     height: 10vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    color: black;
     gap: 15px;
 }
 
@@ -116,6 +116,7 @@ a {
 #SegundoParrafo {
     color: grey;
     margin-left: 20px;
+    padding: 5px
 }
 
 #top {
@@ -124,9 +125,14 @@ a {
 }
 
 #bottom {
-    background-color: chartreuse;
+    background-color: rgb(218, 209, 226);
     height: 45%;
     display: flex;
+}
+
+.enlacesFooter {
+    color: grey;
+    margin-left: 25px;
 }
 
 #bottom-l {
@@ -134,7 +140,25 @@ a {
 }
 #bottom-center {
     width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: grey;
 }
+
+#hoja {
+    height: 30px;
+}
+
 #bottom-r {
     width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.enlacesFooterLeft {
+    color: grey;
 }
